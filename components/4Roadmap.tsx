@@ -2,7 +2,10 @@ import { drukCyr, drukCyrBold, drukCyrItalic } from "@/pages/_app";
 
 export default function Roadmap(){
     return(
-        <section className="px-[20px] relative ">
+        <section className="
+            px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
+            relative 
+        ">
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] leading-[80%]
             `}>

@@ -11,7 +11,7 @@ export default function Tokenomics(){
     return(
         <section className="relative
             pt-[86px]
-            px-[20px]
+            px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
             pb-[65px]
             
         ">

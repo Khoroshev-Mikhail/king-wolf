@@ -6,7 +6,10 @@ import Ticker from "./ui/ticker";
 
 export default function Feedback(){
     return(
-        <section className="px-[20px] mt-[85px]">
+        <section className="
+            px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
+            mt-[85px]
+        ">
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] leading-[80%]
             `}>
