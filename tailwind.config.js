@@ -17,16 +17,17 @@ module.exports = {
         sans: ['var(--font-darkcyr)', ...fontFamily.sans],
       },
       screens: {
-        'sm': '640px',
-        // => @media (min-width: 640px) { ... }
+        'sm': '640px', // => @media (min-width: 640px) etc
         'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
         '2xl': '1536px',
       },
       colors: {
-        'blue': '#174AFF'
-      }
+        'my_blue': '#174AFF',
+        'my_black': '#0E111A',
+        'my_green': '#BDFF00',
+      },
     },
   },
   plugins: [],

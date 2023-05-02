@@ -3,12 +3,16 @@ import type { AppProps } from 'next/app'
 import { Manrope } from 'next/font/google'
 import localFont from 'next/font/local'
 
+const manropeFont = Manrope({ subsets: ['latin'] })
 const drukCyrFont = localFont({ src: '../fonts/DrukCyr-Medium.ttf' })
 const drukCyrItalicFont = localFont({ src: '../fonts/DrukCyr-Medium-Italic.ttf' })
+const drukCyrBoldItalicFont = localFont({ src: '../fonts/DrukCyr-Bold-Italic.ttf' })
 const drukCyrBoldFont = localFont({ src: '../fonts/DrukCyr-Bold.ttf' })
 const drukCyrHeavyFont = localFont({ src: '../fonts/DrukCyr-Heavy.ttf' })
+export const manrope = manropeFont.className
 export const drukCyr = drukCyrFont.className
 export const drukCyrItalic = drukCyrItalicFont.className
+export const drukCyrBoldItalic = drukCyrBoldItalicFont.className
 export const drukCyrBold = drukCyrBoldFont.className
 export const drukCyrHeavy = drukCyrHeavyFont.className
 
@@ -39,5 +43,9 @@ export const drukCyrHeavy = drukCyrHeavyFont.className
 // })
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <main className={`${manrope} bg-my_black text-white`}>
+      <Component {...pageProps} />
+    </main>
+  )
 }
