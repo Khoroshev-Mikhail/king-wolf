@@ -21,7 +21,10 @@ export default function Feedback(){
             </h2>
 
 
-                <div className="relative overflow-hidden sm:flex sm:justify-between mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] bg-my_blue rounded-2xl bg-[url('/images/grid-form.svg')] bg-no-repeat  bg-cover">
+                <div className="relative overflow-hidden sm:flex sm:justify-between 
+                    mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] 
+                    bg-my_blue rounded-2xl bg-[url('/images/grid-form.svg')] bg-no-repeat  bg-cover
+                ">
                     <div className="
                         p-[20px] sm:pb-[80px] md:pb-[100px] lg:pb-[100px] xl:pb-[140px] 
                         sm:pt-[20px] md:pt-[30px] lg:pt-[30px] xl:pt-[50px]
@@ -62,7 +65,7 @@ export default function Feedback(){
                     </div>
                 </div>
 
-            <div className="mt-[40px]">
+            <div className="mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]">
                 <Ticker green />
             </div>
         

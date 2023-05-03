@@ -152,7 +152,7 @@ export default function Tokenomics(){
                     </div>
                     
                 </div>
-                <div className="pt-[45px] relative z-30">
+                <div className="mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] relative z-30">
                     <Ticker /> 
                 </div>
             </div>

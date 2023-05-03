@@ -11,7 +11,7 @@ export default function Ticker({ green } : { green?: boolean }){
             mx-[-20px] md:mx-[-40px] lg:mx-[-60px] xl:mx-[-80px] 2xl:mx-[-200px]
             relative ${green ? 'rotate-[-2deg]' : 'rotate-[2deg]'} 
         `}>
-            <Marquee autoFill>
+            <Marquee autoFill direction={green ? 'left' : 'right'}>
                 <Image src={green ? line_green : line} alt="king wolf" className="hidden sm:inline"/>
                 <Image src={green ? line_green_mobile : line_mobile} alt="king wolf" className="sm:hidden"/>
             </Marquee>
