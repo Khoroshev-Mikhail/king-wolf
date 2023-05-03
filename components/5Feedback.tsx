@@ -13,14 +13,14 @@ export default function Feedback(){
         ">
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
-                sm:w-[90%] md:w-[80%] lg:w-[70%]
+                sm:w-[90%] md:w-[70%] lg:w-[70%]
             `}>
                 <span className="text-my_green">Ready</span> to be 
                 <span className={drukCyrBoldItalic}> part</span> of the pack?
             </h2>
 
 
-                <div className="relative overflow-hidden sm:flex sm:justify-between mt-[40px] bg-my_blue rounded-2xl bg-[url('/images/grid-form.png')] bg-no-repeat bg-top bg-contain">
+                <div className="relative overflow-hidden sm:flex sm:justify-between mt-[40px] bg-my_blue rounded-2xl bg-[url('/images/grid-form.svg')] bg-no-repeat  bg-cover">
                     <div className="
                         p-[20px] sm:pb-[80px] md:pb-[100px] lg:pb-[100px] xl:pb-[140px] 
                         sm:pt-[20px] md:pt-[30px] lg:pt-[30px] xl:pt-[50px]

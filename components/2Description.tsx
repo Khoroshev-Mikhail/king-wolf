@@ -34,8 +34,8 @@ export default function Description(){
                         We are creating a modern ecosystem that will bring people together from around the world to provide financial assistance in support of wolves around the world
                     </p>
                 </div>
-                <div className="mt-[30px] md:mt-0  md:mt-[8px]">
-                    <Image src={roundWolfs} width={262} alt="wolfs"/>
+                <div className="mt-[30px] md:mt-0  md:mt-[8px] w-full xs:w-[262px]">
+                    <Image src={roundWolfs} alt="wolfs"/>
                 </div>
             </div>
         </section>

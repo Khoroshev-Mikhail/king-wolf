@@ -32,12 +32,12 @@ export default function Tokenomics(){
                     gap-y-[5px] sm:gap-y-[10px] sm:gap-x-[20px]
                 ">
 
-                    <div className="bg-[#191C25] rounded-2xl
-                        p-[30px] sm:p-[40px]
+                    <div className="bg-[#191C25] rounded-2xl _shadow
+                        p-[30px] sm:p-[27px]
                         col-span-1 sm:col-start-1 sm:col-end-2
                         row-span-1 sm:row-span-4 sm:row-start-1 sm:row-end-5
                     ">
-                        <p className="text-[26px] leading-[38px] font-bold">
+                        <p className="text-[20px] leading-[27px] lg:text-[26px] lg:leading-[38px] font-bold">
                             <Image src={total_supply} alt="icon" className="inline relative
                                 mr-[15px] top-[2px] left-[-2px]
                             "/>
@@ -51,12 +51,12 @@ export default function Tokenomics(){
                         </p>
                     </div>
 
-                    <div className="bg-[#191C25] rounded-2xl
-                        p-[30px] sm:p-[40px]
+                    <div className="bg-[#191C25] rounded-2xl _shadow
+                        p-[30px] sm:p-[27px]
                         col-span-1 sm:col-start-1 sm:col-end-2
                         row-span-1 sm:row-span-4 sm:row-start-5 sm:row-end-9
                     ">
-                        <p className="text-[26px] leading-[38px] font-bold">
+                        <p className="text-[20px] leading-[27px] lg:text-[26px] lg:leading-[38px] font-bold">
                             <Image src={total_security} alt="icon" className="inline relative
                                 mr-[15px] top-[3px] left-[-2px]
                             "/>
@@ -71,11 +71,11 @@ export default function Tokenomics(){
                     </div>
 
                     <div className="bg-[#191C25] rounded-2xl
-                        p-[30px] sm:p-[40px]
+                        p-[30px] sm:p-[27px]
                         col-span-1 sm:col-start-1 sm:col-end-2
                         row-span-1 sm:row-span-2 sm:row-start-10 sm:row-end-11
                     ">
-                        <p className="text-[26px] leading-[38px] font-bold">
+                        <p className="text-[20px] leading-[27px] lg:text-[26px] lg:leading-[38px] font-bold">
                             <Image src={smart_contract} alt="icon" className="inline relative
                                 mr-[15px] top-[2px] left-[-2px]
                             "/>
@@ -84,11 +84,11 @@ export default function Tokenomics(){
                     </div>
 
                     <div className="bg-[#191C25] rounded-2xl
-                        p-[30px] sm:p-[40px]
+                        p-[30px] sm:p-[27px]
                         col-span-1 sm:col-start-2 sm:col-end-3
                         row-span-1 sm:row-span-5 sm:row-start-1 sm:row-end-6
                     ">
-                        <p className="text-[26px] leading-[38px] font-bold">
+                        <p className="text-[20px] leading-[27px] lg:text-[26px] lg:leading-[38px] font-bold">
                             <Image src={sell_tax} alt="icon" className="inline relative
                                 mr-[15px] top-[2px] left-[-4px]
                             "/>
@@ -117,12 +117,12 @@ export default function Tokenomics(){
                         </ul>
                     </div>
 
-                    <div className="bg-[#191C25] rounded-2xl
+                    <div className="bg-[#191C25] rounded-2xl _shadow
                         p-[30px] sm:p-[40px
                         col-span-1 sm:col-start-2 sm:col-end-3
                         row-span-1 sm:row-span-5 sm:row-start-6 sm:row-end-11
                     ">
-                        <p className="text-[26px] leading-[38px] font-bold">
+                        <p className="text-[20px] leading-[27px] lg:text-[26px] lg:leading-[38px] font-bold">
                             <Image src={buy_tax} alt="icon" className="inline relative
                                 mr-[15px] top-[-2px]
                             "/>
