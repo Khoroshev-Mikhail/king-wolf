@@ -10,6 +10,7 @@ export default function Feedback(){
             px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
             mt-[85px]
             mb-[40px]
+
         ">
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
@@ -20,7 +21,7 @@ export default function Feedback(){
             </h2>
 
 
-                <div className="relative overflow-hidden sm:flex sm:justify-between mt-[40px] bg-my_blue rounded-2xl bg-[url('/images/grid-form.svg')] bg-no-repeat  bg-cover">
+                <div className="relative overflow-hidden sm:flex sm:justify-between mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] bg-my_blue rounded-2xl bg-[url('/images/grid-form.svg')] bg-no-repeat  bg-cover">
                     <div className="
                         p-[20px] sm:pb-[80px] md:pb-[100px] lg:pb-[100px] xl:pb-[140px] 
                         sm:pt-[20px] md:pt-[30px] lg:pt-[30px] xl:pt-[50px]
@@ -61,8 +62,9 @@ export default function Feedback(){
                     </div>
                 </div>
 
-
-        <Ticker green />
+            <div className="mt-[40px]">
+                <Ticker green />
+            </div>
         
         </section>
     )

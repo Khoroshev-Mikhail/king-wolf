@@ -28,7 +28,7 @@ export default function Tokenomics(){
 
                 <div className="grid relative z-30
                     grid-cols-1 sm:grid-cols-2 grid-rows-1 sm:grid-rows-10
-                    mt-[40px]
+                    mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]
                     gap-y-[5px] sm:gap-y-[10px] sm:gap-x-[20px]
                 ">
 

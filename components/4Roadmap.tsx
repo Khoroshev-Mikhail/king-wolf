@@ -13,7 +13,10 @@ export default function Roadmap(){
             </h2>
             <div className="w-[75%] h-[65%] right-0 absolute bg-[url('/images/eclipse-roadmap-right.png')] bg-no-repeat bg-contain bg-right"></div>
             
-            <div className="mt-[40px] [&>div]:ml-[30px] [&>div>ul]:list-image-[url(/images/icon/list.svg)] sm:grid sm:grid-cols-2">
+            <div className="
+                mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]
+                [&>div]:ml-[30px] [&>div>ul]:list-image-[url(/images/icon/list.svg)] sm:grid sm:grid-cols-2
+            ">
         
                 <div className="sm:cols-span-1">
                     <p className={`${drukCyr} text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
