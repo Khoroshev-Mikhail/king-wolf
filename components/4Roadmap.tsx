@@ -4,16 +4,24 @@ export default function Roadmap(){
     return(
         <section className="
             px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
-            relative 
+            relative
         ">
+            <div className="z-0 sm:hidden w-[75%] h-[65%] right-0 absolute bg-[url('/images/eclipse-roadmap-right.png')] bg-no-repeat bg-contain bg-right">
+                {/* background-eclipse */}
+            </div>
+            <div className="z-0 hidden sm:block w-full h-full left-0 bottom-[-200px] absolute bg-[url('/images/eclipse-roadmap-desktop.svg')] bg-no-repeat bg-contain bg-left-bottom">
+                {/* background-eclipse */}
+            </div>
+
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
             `}>
                 Roadmap
             </h2>
-            <div className="w-[75%] h-[65%] right-0 absolute bg-[url('/images/eclipse-roadmap-right.png')] bg-no-repeat bg-contain bg-right"></div>
+
+
             
-            <div className="
+            <div className="relative z-30
                 mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]
                 [&>div]:ml-[30px] [&>div>ul]:list-image-[url(/images/icon/list.svg)] sm:grid sm:grid-cols-2
             ">

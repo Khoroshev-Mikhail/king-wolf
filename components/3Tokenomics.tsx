@@ -15,9 +15,17 @@ export default function Tokenomics(){
             pb-[65px]
             
         ">
-            <div className="absolute w-full h-full left-0 z-0 top-0 bg-[url('/images/eclipse-tocenomics-right-left.png')] bg-no-repeat bg-cover bg-top"></div>
+            <div className="absolute w-full h-full right-0 z-0 top-0 sm:top-[-100px] bg-[url('/images/eclipse-tocenomics-right.svg')] bg-no-repeat bg-contain bg-right-top">
+                {/* background-eclipse */}
+            </div>
+            <div className="sm:hidden absolute w-full h-full left-0 z-0 bottom-0 bg-[url('/images/eclipse-tocenomics-left.svg')] bg-no-repeat bg-contain bg-left-bottom">
+                {/* background-eclipse */}
+            </div>
+            <div className="absolute w-full h-full right-0 z-0 top-0 sm:top-[-100px] bg-[url('/images/eclipse-tocenomics-right-desktop.svg')] bg-no-repeat bg-contain bg-right">
+                {/* background-eclipse */}
+            </div>
 
-            <div className="px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
+            <div className="relative z-30 px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
                 <h2 className={`${drukCyrBold} uppercase
                     text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
                     sm:text-center

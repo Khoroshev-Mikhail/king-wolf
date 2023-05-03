@@ -10,9 +10,17 @@ export default function Feedback(){
             px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
             mt-[85px]
             mb-[40px]
-
+            relative
         ">
-            <h2 className={`${drukCyrBold} uppercase
+
+            <div className="z-0 sm:hidden w-full h-full top-[-100px] left-0 absolute bg-[url('/images/eclipse-feedback-left.svg')] bg-no-repeat bg-contain g-left-top">
+                {/* background-eclipse */}
+            </div>
+            <div className="z-0 hidden sm:block w-full h-full right-0  absolute bg-[url('/images/eclipse-feedback-right.svg')] bg-no-repeat bg-contain bg-right">
+                {/* background-eclipse */}
+            </div>
+
+            <h2 className={`${drukCyrBold} uppercase relative z-30
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
                 sm:w-[90%] md:w-[70%] lg:w-[70%]
             `}>
@@ -21,7 +29,7 @@ export default function Feedback(){
             </h2>
 
 
-                <div className="relative overflow-hidden sm:flex sm:justify-between 
+                <div className="relative z-30 overflow-hidden sm:flex sm:justify-between 
                     mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] 
                     bg-my_blue rounded-2xl bg-[url('/images/grid-form.svg')] bg-no-repeat  bg-cover
                 ">
