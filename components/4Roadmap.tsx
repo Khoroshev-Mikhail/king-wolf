@@ -13,13 +13,12 @@ export default function Roadmap(){
                 {/* background-eclipse */}
             </div>
 
+
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
             `}>
                 Roadmap
             </h2>
-
-
             
             <div className="relative z-30
                 mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]
