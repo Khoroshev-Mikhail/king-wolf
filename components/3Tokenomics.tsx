@@ -19,9 +19,10 @@ export default function Tokenomics(){
 
             <div className="px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
                 <h2 className={`${drukCyrBold} uppercase
-                    text-[70px] leading-[80%]
+                    text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
+                    sm:text-center
                 `}>
-                    Our<br/>
+                    Our <br className="sm:hidden"/>
                     <span className="text-my_green">Tocenomics</span>    
                 </h2>
 
@@ -33,12 +34,10 @@ export default function Tokenomics(){
 
                     <div className="bg-[#191C25] rounded-2xl
                         p-[30px] sm:p-[40px]
-                        col-span-1
-                        row-span-1 sm:row-span-4
+                        col-span-1 sm:col-start-1 sm:col-end-2
+                        row-span-1 sm:row-span-4 sm:row-start-1 sm:row-end-5
                     ">
-                        <p className="font-extrabold
-                            text-[20px] leading-[27px] tracking-[-0.02em]
-                        ">
+                        <p className="text-[26px] leading-[38px] font-bold">
                             <Image src={total_supply} alt="icon" className="inline relative
                                 mr-[15px] top-[2px] left-[-2px]
                             "/>
@@ -54,10 +53,10 @@ export default function Tokenomics(){
 
                     <div className="bg-[#191C25] rounded-2xl
                         p-[30px] sm:p-[40px]
-                        col-span-1
-                        row-span-1 sm:row-span-5
+                        col-span-1 sm:col-start-1 sm:col-end-2
+                        row-span-1 sm:row-span-4 sm:row-start-5 sm:row-end-9
                     ">
-                        <p>
+                        <p className="text-[26px] leading-[38px] font-bold">
                             <Image src={total_security} alt="icon" className="inline relative
                                 mr-[15px] top-[3px] left-[-2px]
                             "/>
@@ -73,10 +72,10 @@ export default function Tokenomics(){
 
                     <div className="bg-[#191C25] rounded-2xl
                         p-[30px] sm:p-[40px]
-                        col-span-1
-                        row-span-1 sm:row-span-2
+                        col-span-1 sm:col-start-1 sm:col-end-2
+                        row-span-1 sm:row-span-2 sm:row-start-10 sm:row-end-11
                     ">
-                        <p>
+                        <p className="text-[26px] leading-[38px] font-bold">
                             <Image src={smart_contract} alt="icon" className="inline relative
                                 mr-[15px] top-[2px] left-[-2px]
                             "/>
@@ -86,10 +85,10 @@ export default function Tokenomics(){
 
                     <div className="bg-[#191C25] rounded-2xl
                         p-[30px] sm:p-[40px]
-                        col-span-1
-                        row-span-1 sm:row-span-5
+                        col-span-1 sm:col-start-2 sm:col-end-3
+                        row-span-1 sm:row-span-5 sm:row-start-1 sm:row-end-6
                     ">
-                        <p>
+                        <p className="text-[26px] leading-[38px] font-bold">
                             <Image src={sell_tax} alt="icon" className="inline relative
                                 mr-[15px] top-[2px] left-[-4px]
                             "/>
@@ -120,10 +119,10 @@ export default function Tokenomics(){
 
                     <div className="bg-[#191C25] rounded-2xl
                         p-[30px] sm:p-[40px
-                        col-span-1
-                        row-span-1 sm:row-span-4
+                        col-span-1 sm:col-start-2 sm:col-end-3
+                        row-span-1 sm:row-span-5 sm:row-start-6 sm:row-end-11
                     ">
-                        <p>
+                        <p className="text-[26px] leading-[38px] font-bold">
                             <Image src={buy_tax} alt="icon" className="inline relative
                                 mr-[15px] top-[-2px]
                             "/>
