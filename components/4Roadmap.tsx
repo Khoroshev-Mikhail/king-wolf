@@ -91,8 +91,8 @@ export default function Roadmap(){
                     </div>
                 </div>
 
-                <div className="sm:cols-span-1 p-[1px] bg-gradient-to-r from-my_green rounded-2xl">
-                    <div className="bg-my_black h-full rounded-2xl pl-[30px] py-[30px]">
+                <div className=" relative z-40 sm:cols-span-1 p-[1px] bg-gradient-to-r from-my_green rounded-2xl">
+                    <div className="relative bg-my_black h-full rounded-2xl pl-[30px] py-[30px]">
                         <p className={`${drukCyr} text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
                             text-[40px]
                         `}>
