@@ -15,8 +15,9 @@ export default function Header(){
     return(
         <div className="relative h-screen sm:h-auto min-h-[600px] mb-[70px]">
 
-            <div className="h-full min-h-screen absolute z-10 top-0 w-[75%] bg-[url('/images/eclipse-header-left.png')] sm:bg-[url('/images/eclipse-header-left-big.svg')] bg-no-repeat bg-left-top bg-contain"></div>
-            <div className="h-full min-h-screen absolute z-10 top-0 right-0 w-[50%] bg-[url('/images/eclipse-header-right.png')] bg-no-repeat bg-right-bottom bg-contain sm:bg-none"></div>
+            <div className="hidden sm:block h-full min-h-screen absolute z-10 top-0 w-[75%] bg-[url('/images/eclipse-header-left.svg')] sm:bg-[url('/images/eclipse-header-left-big.svg')] bg-no-repeat bg-left-top bg-contain"></div>
+            <div className="sm:hidden h-full min-h-screen absolute z-10 top-0 w-[75%] bg-[url('/images/eclipse-header-left-mobile.svg')] sm:bg-[url('/images/eclipse-header-left-big.svg')] bg-no-repeat bg-left-top bg-contain"></div>
+            <div className="sm:hidden h-full min-h-screen absolute z-10 top-0 right-0 w-[50%] bg-[url('/images/eclipse-header-right.svg')] bg-no-repeat bg-right-bottom bg-contain"></div>
 
             <div className={ `${isHidden ? 'hidden' : 'block'} h-screen min-h-[600px] absolute top-0 left-0 w-full z-40 bg-my_blue rounded-b-2xl
                     px-[20px]

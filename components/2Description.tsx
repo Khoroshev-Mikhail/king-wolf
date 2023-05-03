@@ -9,7 +9,7 @@ export default function Description(){
             sm:mt-[50px] md:mt-[75px] lg:mt-[100px] xl:mt-[150px] 
             md:flex
         ">
-            <div className="sm:hidden absolute w-full h-full right-0 z-0 top-0 bg-[url('/images/eclipse-desc-right.png')] bg-no-repeat bg-right bg-contain">
+            <div className="sm:hidden absolute w-full h-full right-0 z-0 top-0 bg-[url('/images/eclipse-desc-right.svg')] bg-no-repeat bg-right bg-contain">
                 {/* background-eclipse */}
             </div>
 
