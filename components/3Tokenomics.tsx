@@ -93,7 +93,7 @@ export default function Tokenomics(){
                             mt-[15px]
                             text-[12px] leading-[16px]
                         ">
-                            0x1022029eDdF7c54FC3942664CfA63A24007440E8
+                            0x1022029eDdF7c<wbr/>54FC3942664CfA63A24007440E8
                         </p>
                     </div>
 

@@ -28,10 +28,9 @@ export default function Feedback(){
                 <span className={drukCyrBoldItalic}> part</span> of the pack?
             </h2>
 
-
                 <div className="relative z-30 overflow-hidden sm:flex sm:justify-between 
                     mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] 
-                    bg-my_blue rounded-2xl bg-[url('/images/grid-form.svg')] bg-no-repeat bg-cover
+                    bg-my_blue rounded-2xl bg-[url('/images/grid-form-mobile.svg')] sm:bg-[url('/images/grid-form.svg')] bg-no-repeat bg-contain sm:bg-cover
                 ">
                     <div className="
                         p-[20px] sm:pb-[80px] md:pb-[100px] lg:pb-[100px] xl:pb-[140px] 

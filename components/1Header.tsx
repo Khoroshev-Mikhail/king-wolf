@@ -19,10 +19,10 @@ export default function Header(){
             <div className="sm:hidden h-full min-h-screen absolute z-10 top-0 w-[75%] bg-[url('/images/eclipse-header-left-mobile.svg')] sm:bg-[url('/images/eclipse-header-left-big.svg')] bg-no-repeat bg-left-top bg-contain"></div>
             <div className="sm:hidden h-full min-h-screen absolute z-10 top-0 right-0 w-[50%] bg-[url('/images/eclipse-header-right.svg')] bg-no-repeat bg-right-bottom bg-contain"></div>
 
-            <div className={ `${isHidden ? 'hidden' : 'block'} h-screen min-h-[600px] absolute top-0 left-0 w-full z-40 bg-my_blue rounded-b-2xl
+            <div className={`${isHidden ? 'hidden' : 'block'} h-screen min-h-[650px] md:min-h-[680px] lg:min-h-[780px] absolute top-0 left-0 w-full z-40 bg-my_blue rounded-b-2xl
                     px-[20px]
             ` }>
-                <menu className={`${drukCyr} text-[40px] text-white`}>
+                <menu className={`${drukCyr} text-[40px] sm:text-[48px] md:text-[56px] lg:text-[60px] xl:text-[66px] text-white`}>
                     <li className="flex justify-end py-[13px] sm:py-[26px] md:py-[39px] 
                         lg:pr-[100px] xl:pr-[200px]
                     ">
@@ -32,7 +32,7 @@ export default function Header(){
                     <li><a href="#">TOKENOMICS</a></li>
                     <li><a href="#">ROADMAP</a></li>
                     <li><a href="#">CONTACTS</a></li>
-                    <li className="pt-[60px] sm:pt-[120px]">
+                    <li className="pt-[60px] xl:pt-[100px]">
                         <Social green/>
                     </li>
                     <li className="absolute w-full left-0 bottom-[20px] px-[20px]">

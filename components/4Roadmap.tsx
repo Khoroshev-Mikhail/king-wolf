@@ -1,4 +1,6 @@
 import { drukCyr, drukCyrBold, drukCyrItalic } from "@/pages/_app";
+import eclipse from "../public/images/eclipse-roadmap-desktop.svg"
+import Image from "next/image";
 
 export default function Roadmap(){
     return(
@@ -6,12 +8,8 @@ export default function Roadmap(){
             px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
             relative
         ">
-            <div className="z-20 sm:hidden w-[75%] h-[65%] right-0 absolute bg-[url('/images/eclipse-roadmap-right.svg')] bg-no-repeat bg-contain bg-right">
-                {/* background-eclipse */}
-            </div>
-            <div className="z-20 hidden sm:block w-full h-full left-0 bottom-[-200px] absolute bg-[url('/images/eclipse-roadmap-desktop.svg')] bg-no-repeat bg-contain bg-left-bottom">
-                {/* background-eclipse */}
-            </div>
+
+
 
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
@@ -23,17 +21,24 @@ export default function Roadmap(){
                 mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]
                 [&>div>div>ul]:list-image-[url(/images/icon/list.svg)] sm:grid sm:grid-cols-2
             ">
+
+                <div className="z-0 hidden ml-[-20px] md:ml-[-40px] lg:ml-[-60px] xl:ml-[-80px] 2xl:ml-[-200px] sm:block w-full h-full left-0 absolute bg-[url('/images/eclipse-roadmap-desktop.svg')] bg-no-repeat bg-contain bg-left-bottom">
+                    {/* background-eclipse */}
+                </div>
+                <div className="z-0 sm:hidden  mr-[-20px]  w-[75%] h-[65%] right-0 absolute bg-[url('/images/eclipse-roadmap-right.svg')] bg-no-repeat bg-contain bg-right">
+                    {/* background-eclipse */}
+                </div>
         
                 <div className="sm:cols-span-1 p-[1px] bg-gradient-to-l from-my_green rounded-2xl sm:rounded-none sm:pr-[0px]">
                     <div className="bg-my_black h-full rounded-r-2xl pl-[30px] sm:pl-[40px] md:pl-[50px] lg:pl-[60px] py-[30px] sm:py-[40px] md:py-[50px] lg:py-[56px]
                         sm:rounded-none
                     ">
-                        <p className={`${drukCyr} text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
+                        <p className={`${drukCyr} relative z-30 text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
                             text-[40px]
                         `}>
                             Phase <span className={drukCyrItalic}>1</span>
                         </p>
-                        <ul className="[&>li]:pb-[14px]
+                        <ul className="relative z-30 [&>li]:pb-[14px]
                             font-medium text-[16px] leading-[100%]
                             mt-[8px]
                             [&>li]:ml-[14px] [&>li]:pl-[11px]
@@ -53,12 +58,12 @@ export default function Roadmap(){
                     <div className="bg-my_black h-full rounded-l-2xl pl-[30px] sm:pl-[40px] md:pl-[50px] lg:pl-[60px] py-[30px] sm:py-[40px] md:py-[50px] lg:py-[56px]
                         sm:rounded-none sm:ml-[-1px] _border-radius-r-20
                     ">
-                        <p className={`${drukCyr} text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
+                        <p className={`${drukCyr} relative z-30 text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
                             text-[40px]
                         `}>
                             Phase <span className={drukCyrItalic}>2</span>
                         </p>
-                        <ul className=" [&>li]:pb-[14px]
+                        <ul className="relative z-30 [&>li]:pb-[14px]
                             font-medium text-[16px] leading-[100%]
                             mt-[8px]
                             [&>li]:ml-[14px] [&>li]:pl-[11px]
@@ -76,12 +81,12 @@ export default function Roadmap(){
                     <div className="bg-my_black h-full rounded-2xl pl-[30px] sm:pl-[40px] md:pl-[50px] lg:pl-[60px] py-[30px] sm:py-[40px] md:py-[50px] lg:py-[56px]
                         sm:rounded-none sm:ml-[1px] _border-radius-l-20
                     ">
-                        <p className={`${drukCyr} text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
+                        <p className={`${drukCyr} relative z-30 text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
                             text-[40px]
                         `}>
                             Phase <span className={drukCyrItalic}>3</span>
                         </p>
-                        <ul className=" [&>li]:pb-[14px]
+                        <ul className="relative z-30 [&>li]:pb-[14px]
                             font-medium text-[16px] leading-[100%]
                             mt-[8px]
                             [&>li]:ml-[14px] [&>li]:pl-[11px]
@@ -95,16 +100,16 @@ export default function Roadmap(){
                     </div>
                 </div>
 
-                <div className=" relative z-40 sm:cols-span-1 p-[1px] bg-gradient-to-r from-my_green rounded-2xl sm:rounded-none sm:pl-[0px]">
-                    <div className="relative bg-my_black h-full rounded-2xl pl-[30px] sm:pl-[40px] md:pl-[50px] lg:pl-[60px] py-[30px] sm:py-[40px] md:py-[50px] lg:py-[56px]
+                <div className="sm:cols-span-1 p-[1px] bg-gradient-to-r from-my_green rounded-2xl sm:rounded-none sm:pl-[0px]">
+                    <div className="bg-my_black h-full rounded-2xl pl-[30px] sm:pl-[40px] md:pl-[50px] lg:pl-[60px] py-[30px] sm:py-[40px] md:py-[50px] lg:py-[56px]
                         sm:rounded-none sm:ml-[-2px]
                     ">
-                        <p className={`${drukCyr} text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
+                        <p className={`${drukCyr} relative z-30 text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%
                             text-[40px]
                         `}>
                             Phase <span className={drukCyrItalic}>4</span>
                         </p>
-                        <ul className=" [&>li]:pb-[14px]
+                        <ul className="relative z-30 [&>li]:pb-[14px]
                             font-medium text-[16px] leading-[100%]
                             mt-[8px]
                             [&>li]:ml-[14px] [&>li]:pl-[11px]
