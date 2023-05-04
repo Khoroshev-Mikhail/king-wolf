@@ -32,8 +32,8 @@ export default function Feedback(){
                         <div className="mt-[30px] sm:mt-[10px] md:mt-[20px] lg:mt-[30px] xl:mt-[40px]">
                             <form>
                                 <input required className="outline-0 w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="name" type="text" placeholder="Name"/>
-                                <input required className="outline-0 mt-[8px] md:mt-[10px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="email" type="email" placeholder="Email"/>
-                                <button className="mt-[8px] md:mt-[10px] p-[16px] w-full text-my_blue text-[16px] leading-[180%] bg-white rounded-2xl font-bold uppercase sm:text-[20px] sm:p-[22px]">
+                                <input required className="outline-0 mt-[8px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px] md:mt-[10px]" name="email" type="email" placeholder="Email"/>
+                                <button className="mt-[8px] p-[16px] w-full text-my_blue text-[16px] leading-[180%] bg-white hover:bg-my_green hover:text-my_blue duration-300 rounded-2xl font-bold uppercase sm:text-[20px] sm:p-[22px] md:mt-[10px]">
                                     Send
                                 </button>
                                 <p className="mt-[8px] text-center font-normal text-[#ffffffb3] text-[7px] sm:text-left sm:text-[10px] md:text-[10px] lg:text-[12px]">By submitting your data to this form, you agree to the privacy Policy</p>
