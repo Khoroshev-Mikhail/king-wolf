@@ -52,7 +52,7 @@ export default function Feedback(){
                         <div className="mt-[30px] sm:mt-[10px] md:mt-[20px] lg:mt-[30px] xl:mt-[40px]">
                             <form>
                                 <input className="w-full bg-transparent border-white border-2 py-[18px] px-[20px] md:py-[22px] text-white placeholder-white text-[16px] sm:text-[20px] leading-[180%] rounded-2xl font-medium" name="name" type="text" placeholder="Name"/>
-                                <input className="mt-[8px] md:mt-[10px] w-full bg-transparent border-white border-2 py-[18px] md:py-[22px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium" name="email" type="email" placeholder="Email"/>
+                                <input className="mt-[8px] md:mt-[10px] w-full bg-transparent border-white border-2 py-[18px] md:py-[22px] px-[20px] text-white placeholder-white text-[16px] sm:text-[20px] leading-[180%] rounded-2xl font-medium" name="email" type="email" placeholder="Email"/>
                                 <button className={`mt-[8px] md:mt-[10px] text-my_blue text-[16px] sm:text-[20px] leading-[180%] bg-white rounded-2xl font-bold uppercase
                                     ${manrope}
                                     w-full 
@@ -67,7 +67,7 @@ export default function Feedback(){
 
                     <div className="sm:absolute right-0 object-contain sm:right-[-190px] md:right-[-160px] lg:right-[-40px] xl:right-[-2px]">
                         <Image src={wolf} width={360} alt="wolf" className="
-                            sm:w-[436px] md:w-[498px] lg:w-[512px] xl:w-[586px]
+                            sm:w-[443px] md:w-[505px] lg:w-[519px] xl:w-[593px]
                             object-contain relative w-full top-[5px] sm:top-[-1px]
                         "/>
                     </div>

@@ -84,7 +84,7 @@ export default function Header(){
                 </p>
                 <div className="">
                     <Image src={bigwolf_mobile} alt="King wolf" className="w-full absolute z-0 left-0 bottom-[-70px] sm:inline-flex sm:hidden" loading="lazy"/>
-                    <Image src={bigwolf} alt="King wolf" className="w-[50%] absolute z-0 top-0 right-0 hidden sm:inline-flex" loading="lazy"/> 
+                    <Image src={bigwolf} alt="King wolf" className="w-[50%] absolute z-0 top-0 right-0 hidden sm:inline-flex max-w-[700px]" loading="lazy"/> 
                 </div>
 
                 <div className="absolute z-20 left-0 w-full

@@ -18,3 +18,14 @@ body {
 ._shadow{
     box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.04);
 }
+._btr{
+    border-top-right-radius: 20px 20px !important;
+}
+._border-radius-r-20{
+    border-top-right-radius: 20px 20px !important;
+    border-bottom-right-radius: 20px 20px !important;
+}
+._border-radius-l-20{
+    border-top-left-radius: 20px 20px !important;
+    border-bottom-left-radius: 20px 20px !important;
+}
