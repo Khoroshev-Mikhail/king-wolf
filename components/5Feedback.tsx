@@ -30,7 +30,7 @@ export default function Feedback(){
 
                 <div data-aos="fade-right" data-aos-duration="1500" className="relative z-30 overflow-hidden sm:flex sm:justify-between 
                     mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] 
-                    bg-my_blue rounded-2xl bg-[url('/images/grid-form-mobile.svg')] sm:bg-[url('/images/grid-form.svg')] bg-no-repeat bg-contain sm:bg-cover
+                    bg-my_blue rounded-2xl bg-[url('/images/grid-form-mobile.png')] sm:bg-[url('/images/grid-form.svg')] bg-no-repeat bg-contain sm:bg-cover
                 ">
                     <div className="
                         p-[20px] sm:pb-[80px] md:pb-[100px] lg:pb-[100px] xl:pb-[140px] 

@@ -1,4 +1,4 @@
-import { drukCyr, manrope } from "@/pages/_app";
+import { manrope } from "@/pages/_app";
 
 export default function Buynow({ green } : { green?: boolean }){
     return(
