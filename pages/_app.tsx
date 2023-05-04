@@ -20,30 +20,26 @@ export const drukCyrBold = drukCyrBoldFont.className
 export const drukCyrHeavy = drukCyrHeavyFont.className
 
 //Объедени в один
-// export const drukCyr2 = localFont({
-//   src: [
-//     {
-//       path: '../fonts/DrukCyr-Medium.ttf',
-//       weight: '400',
-//       style: 'normal'
-//     },
-//     {
-//       path: '../fonts/DrukCyr-Medium-Italic.ttf',
-//       weight: '400',
-//       style: 'italic',
-//     },
-//     {
-//       path: '../fonts/DrukCyr-Bold.ttf',
-//       weight: '700',
-//       style: 'normal',
-//     },
-//     {
-//       path: '../fonts/DrukCyr-Heavy.ttf',
-//       weight: '900',
-//       style: 'normal',
-//     },
-//   ]
-// })
+export const drukCyr2 = localFont({
+  src: [
+    {
+      path: '../fonts/DrukCyr-Medium.ttf',
+      weight: '400',
+      style: 'normal'
+    },
+
+    {
+      path: '../fonts/DrukCyr-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/DrukCyr-Heavy.ttf',
+      weight: '900',
+      style: 'normal',
+    },
+  ]
+})
 
 export default function App({ Component, pageProps }: AppProps) {
     useEffect(()=>{

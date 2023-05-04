@@ -6,42 +6,22 @@ import Ticker from "./ui/ticker";
 
 export default function Feedback(){
     return(
-        <section className="
-            px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
-            mt-[85px]
-            mb-[40px]
-            relative
-        ">
+        <section className="relative mt-[85px] mb-[40px] px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
 
-            <div className="z-0 sm:hidden w-full h-full top-[-100px] left-0 absolute bg-[url('/images/eclipse-feedback-left.svg')] bg-no-repeat bg-contain g-left-top">
-                {/* background-eclipse */}
-            </div>
-            <div className="z-0 hidden sm:block w-full h-full right-0  absolute bg-[url('/images/eclipse-feedback-right.svg')] bg-no-repeat bg-contain bg-right">
-                {/* background-eclipse */}
-            </div>
+            {/* background-eclipse */}
+            <div className="z-0 sm:hidden w-full h-full top-[-100px] left-0 absolute bg-[url('/images/eclipse-feedback-left.svg')] bg-no-repeat bg-contain g-left-top"></div>
+            <div className="z-0 hidden sm:block w-full h-full right-0  absolute bg-[url('/images/eclipse-feedback-right.svg')] bg-no-repeat bg-contain bg-right"></div>
+            {/* background-eclipse */}
 
-            <h2 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} uppercase relative z-30
-                text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
-                sm:w-[90%] md:w-[70%] lg:w-[70%]
-            `}>
+            <h2 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} relative z-30 uppercase leading-[80%] text-[70px] sm:text-[80px] sm:w-[90%] md:text-[100px] md:w-[70%] lg:text-[120px] lg:w-[70%] xl:text-[156px]`}>
                 <span className="text-my_green">Ready</span> to be 
                 <span className={drukCyrBoldItalic}> part</span> of the pack?
             </h2>
 
-                <div data-aos="fade-right" data-aos-duration="1500" className="relative z-30 overflow-hidden sm:flex sm:justify-between 
-                    mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] 
-                    bg-my_blue rounded-2xl bg-[url('/images/grid-form-mobile.png')] sm:bg-[url('/images/grid-form.svg')] bg-no-repeat bg-contain sm:bg-cover
-                ">
-                    <div className="
-                        p-[20px] sm:pb-[80px] md:pb-[100px] lg:pb-[100px] xl:pb-[140px] 
-                        sm:pt-[20px] md:pt-[30px] lg:pt-[30px] xl:pt-[50px]
-                        sm:pl-[20px] md:pl-[30px] lg:pl-[40px] xl:pl-[50px]
-                        sm:w-[60%] md:w-[52%] lg:w-[48%]
-                    ">
+                <div data-aos="fade-right" data-aos-duration="1500" className="relative z-30 overflow-hidden mt-[40px] bg-my_blue sm:flex sm:justify-between md:mt-[50px] lg:mt-[60px] xl:mt-[80px] rounded-2xl bg-[url('/images/grid-form-mobile.png')] sm:bg-[url('/images/grid-form.svg')] bg-no-repeat bg-contain sm:bg-cover">
+                    <div className="p-[20px] sm:w-[60%] sm:pt-[20px] sm:pl-[20px] sm:pb-[80px] md:w-[52%] md:pt-[30px] md:pl-[30px] md:pb-[100px] lg:w-[48%] lg:pt-[30px] lg:pl-[40px] lg:pb-[100px] xl:pt-[50px] xl:pl-[50px] xl:pb-[140px]">
                         <div className="flex justify-between px-[10px] sm:px-[0px]">
-                            <p className="inline-flex 
-                                text-[20px] sm:text-[28px] leading-[150%]
-                            ">
+                            <p className="inline-flex text-[20px] leading-[150%] sm:text-[28px]">
                                 Contact us
                             </p>
                             <div className="sm:absolute sm:bottom-[20px] md:bottom-[30px] lg:bottom-[30px] xl:bottom-[50px]">
@@ -50,25 +30,18 @@ export default function Feedback(){
                         </div>
                         <div className="mt-[30px] sm:mt-[10px] md:mt-[20px] lg:mt-[30px] xl:mt-[40px]">
                             <form>
-                                <input className="w-full bg-transparent border-white border-2 py-[18px] px-[20px] md:py-[22px] text-white placeholder-white text-[16px] sm:text-[20px] leading-[180%] rounded-2xl font-medium" name="name" type="text" placeholder="Name"/>
-                                <input className="mt-[8px] md:mt-[10px] w-full bg-transparent border-white border-2 py-[18px] md:py-[22px] px-[20px] text-white placeholder-white text-[16px] sm:text-[20px] leading-[180%] rounded-2xl font-medium" name="email" type="email" placeholder="Email"/>
-                                <button className={`mt-[8px] md:mt-[10px] text-my_blue text-[16px] sm:text-[20px] leading-[180%] bg-white rounded-2xl font-bold uppercase
-                                    ${manrope}
-                                    w-full 
-                                    p-[16px] sm:p-[22px]
-                                `}>
+                                <input className="w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="name" type="text" placeholder="Name"/>
+                                <input className="mt-[8px] md:mt-[10px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="email" type="email" placeholder="Email"/>
+                                <button className="mt-[8px] md:mt-[10px] p-[16px] w-full text-my_blue text-[16px] leading-[180%] bg-white rounded-2xl font-bold uppercase sm:text-[20px] sm:p-[22px]">
                                     Send
                                 </button>
-                                <p className="mt-[8px] text-center sm:text-left font-normal text-[7px] sm:text-[10px] md:text-[10px] lg:text-[12px] text-[#ffffffb3]">By submitting your data to this form, you agree to the privacy Policy</p>
+                                <p className="mt-[8px] text-center font-normal text-[#ffffffb3] text-[7px] sm:text-left sm:text-[10px] md:text-[10px] lg:text-[12px]">By submitting your data to this form, you agree to the privacy Policy</p>
                             </form>
                         </div>
                     </div>
 
-                    <div className="sm:absolute right-0 object-contain sm:right-[-190px] md:right-[-160px] lg:right-[-40px] xl:right-[-2px]">
-                        <Image src={wolf} width={360} alt="wolf" className="
-                            sm:w-[443px] md:w-[505px] lg:w-[519px] xl:w-[593px]
-                            object-contain relative w-full top-[5px] sm:top-[-1px]
-                        "/>
+                    <div className="object-contain sm:absolute right-0 sm:right-[-190px] md:right-[-160px] lg:right-[-40px] xl:right-[-2px]">
+                        <Image src={wolf} width={360} alt="wolf" className="relative w-full top-[5px] object-contain sm:top-[-1px] sm:w-[443px] md:w-[505px] lg:w-[519px] xl:w-[593px]"/>
                     </div>
                 </div>
 
