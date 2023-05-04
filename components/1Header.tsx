@@ -34,7 +34,7 @@ export default function Header(){
                     <li className="pt-[60px] xl:pt-[100px]">
                         <Social green/>
                     </li>
-                    <li className="absolute w-full left-0 bottom-[20px] px-[20px]">
+                    <li className="animate-bounce absolute w-full left-0 bottom-[20px] px-[20px]">
                         <Buynow />
                     </li>
                 </menu>
