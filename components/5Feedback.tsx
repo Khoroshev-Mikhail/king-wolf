@@ -1,6 +1,6 @@
 import Image from "next/image";
 import wolf from '../public/images/feedback-wolf.png'
-import { drukCyrBold, drukCyrBoldItalic, manrope } from "@/pages/_app";
+import { drukCyrBold, drukCyrBoldItalic } from "@/pages/_app";
 import Social from "./ui/social";
 import Ticker from "./ui/ticker";
 
@@ -18,7 +18,8 @@ export default function Feedback(){
                 <span className={drukCyrBoldItalic}> part</span> of the pack?
             </h2>
 
-                <div data-aos="fade-right" data-aos-duration="1500" className="relative z-30 overflow-hidden mt-[40px] bg-my_blue sm:flex sm:justify-between md:mt-[50px] lg:mt-[60px] xl:mt-[80px] rounded-2xl bg-[url('/images/grid-form-mobile.png')] sm:bg-[url('/images/grid-form.svg')] bg-no-repeat bg-contain sm:bg-cover">
+                <div data-aos="fade-right" data-aos-duration="1500" className="relative z-30 overflow-hidden mt-[40px] bg-my_blue sm:flex sm:justify-between md:mt-[50px] lg:mt-[60px] xl:mt-[80px] rounded-2xl bg-[url('/images/grid-form-mobile.png')] sm:bg-[url('/images/grid-form.png')] bg-no-repeat bg-contain sm:bg-cover">
+                    
                     <div className="p-[20px] sm:w-[60%] sm:pt-[20px] sm:pl-[20px] sm:pb-[80px] md:w-[52%] md:pt-[30px] md:pl-[30px] md:pb-[100px] lg:w-[48%] lg:pt-[30px] lg:pl-[40px] lg:pb-[100px] xl:pt-[50px] xl:pl-[50px] xl:pb-[140px]">
                         <div className="flex justify-between px-[10px] sm:px-[0px]">
                             <p className="inline-flex text-[20px] leading-[150%] sm:text-[28px]">
