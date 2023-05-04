@@ -46,7 +46,7 @@ export default function Tokenomics(){
                         </p>
                     </div>
 
-                    <div onClick={copy} className="relative col-span-1 row-span-1 p-[30px] bg-[#191C25] rounded-2xl _shadow sm:p-[27px] sm:col-start-1 sm:col-end-2 sm:row-span-2 sm:row-start-5 sm:row-end-7">
+                    <div onClick={copy} className="relative cursor-pointer col-span-1 row-span-1 p-[30px] bg-[#191C25] rounded-2xl _shadow sm:p-[27px] sm:col-start-1 sm:col-end-2 sm:row-span-2 sm:row-start-5 sm:row-end-7">
                         <Image src={copy_icon} alt="icon" className="absolute top-[10px] right-[10px] w-[20px]"/>
                         <p className="text-[20px] leading-[27px] lg:text-[26px] lg:leading-[38px] font-bold">
                             <Image src={smart_contract} alt="icon" className="relative inline mr-[15px] top-[2px] left-[-2px]"/>

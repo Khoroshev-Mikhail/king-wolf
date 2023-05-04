@@ -31,8 +31,8 @@ export default function Feedback(){
                         </div>
                         <div className="mt-[30px] sm:mt-[10px] md:mt-[20px] lg:mt-[30px] xl:mt-[40px]">
                             <form>
-                                <input className="w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="name" type="text" placeholder="Name"/>
-                                <input className="mt-[8px] md:mt-[10px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="email" type="email" placeholder="Email"/>
+                                <input required className="outline-0 w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="name" type="text" placeholder="Name"/>
+                                <input required className="outline-0 mt-[8px] md:mt-[10px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="email" type="email" placeholder="Email"/>
                                 <button className="mt-[8px] md:mt-[10px] p-[16px] w-full text-my_blue text-[16px] leading-[180%] bg-white rounded-2xl font-bold uppercase sm:text-[20px] sm:p-[22px]">
                                     Send
                                 </button>

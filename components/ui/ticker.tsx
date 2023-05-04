@@ -10,7 +10,7 @@ export default function Ticker({ green } : { green?: boolean }){
             <Marquee autoFill direction={green ? 'left' : 'right'}>
                 <div className={`${drukCyrBold} ${green ? 'bg-my_green text-my_blue' : 'bg-my_blue'} mx-[-1px] uppercase flex h-[32px] text-[22px] sm:text-[30px] sm:h-[56px]`}>
                     <div className="px-[10px] flex flex-col justify-center">
-                        <Image src={wolf} alt="KING WOLF" className="h-[26px] sm:h-[41px]"/>
+                        <Image src={wolf} alt="KING WOLF" className="w-auto h-[26px] sm:h-[41px]"/>
                     </div>
                     <div className="flex flex-col justify-center">
                         <p className="px-[10px]">King wolf</p>

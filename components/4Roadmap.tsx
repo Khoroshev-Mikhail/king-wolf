@@ -17,7 +17,7 @@ export default function Roadmap(){
         
                 <div  className="p-[1px] bg-gradient-to-l from-my_green rounded-2xl sm:col-span-1 sm:rounded-none sm:pr-[0px]">
                     <div className="bg-my_black h-full rounded-r-2xl pl-[30px] py-[30px] sm:py-[40px] sm:rounded-none sm:pl-[40px] md:pl-[50px] md:py-[50px] lg:pl-[60px] lg:py-[56px]">
-                        <p className={`${drukCyr} relative z-30  text-[40px] text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%`}>
+                        <p className={`${drukCyr} bg-my_black relative z-30  text-[40px] text-transparent bg-clip-text bg-gradient-to-b from-my_green from-25% via-white via-60% to-my_blue to-80%`}>
                             Phase <span className={drukCyrItalic}>1</span>
                         </p>
                         <ul className="relative z-30 font-medium text-[16px] leading-[100%] mt-[8px] [&>li]:pb-[14px]  [&>li]:ml-[14px] [&>li]:pl-[11px]">

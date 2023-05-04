@@ -9,7 +9,6 @@ body {
 ._text-stroke-black {
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
-
 ._border-t{
     border: 1px solid transparent;
     border-image: linear-gradient(to left top,#adf2f7 10%,  transparent 30%, transparent 70%, #adf2f7 90%);
