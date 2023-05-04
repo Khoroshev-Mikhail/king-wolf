@@ -71,7 +71,7 @@ export default function Header(){
                     the <span className="text-my_green">wolf<br /></span>
                     pack
                 </h2>
-                <p className="left-0 text-stroke-black
+                <p className="left-0
                     
                     z-20 absolute bottom-[100px] sm:relative sm:bottom-[0]
                     mt-[20px] sm:mt-[40px]

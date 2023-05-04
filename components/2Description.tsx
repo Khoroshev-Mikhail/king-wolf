@@ -20,7 +20,7 @@ export default function Description(){
                         md:pr-[10px]
                     ">
                         <span className="text-my_green">WolfPack </span>
-                        is a rapidly growing community striving to become<br/> 
+                        is a rapidly growing community striving to become<br className="sm:hidden"/> 
                         <span className={drukCyrItalic}>one of the most </span>popular <br/>
                         in the crypto world
                     </p>

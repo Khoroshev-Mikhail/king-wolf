@@ -1,6 +1,4 @@
 import { drukCyr, drukCyrBold, drukCyrItalic } from "@/pages/_app";
-import eclipse from "../public/images/eclipse-roadmap-desktop.svg"
-import Image from "next/image";
 
 export default function Roadmap(){
     return(
@@ -8,8 +6,6 @@ export default function Roadmap(){
             px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]
             relative
         ">
-
-
 
             <h2 className={`${drukCyrBold} uppercase
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]

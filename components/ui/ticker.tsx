@@ -1,9 +1,7 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import line from '../../public/images/line-blue.svg'
-import line_green from '../../public/images/line-green.svg'
-import line_mobile from '../../public/images/line-blue-mobile.svg'
-import line_green_mobile from '../../public/images/line-green-mobile.svg'
+import wolf from '../../public/images/wolf-ticker.svg'
+import { drukCyrBold } from "@/pages/_app";
 
 export default function Ticker({ green } : { green?: boolean }){
     return(
@@ -12,8 +10,14 @@ export default function Ticker({ green } : { green?: boolean }){
             relative ${green ? 'rotate-[-2deg]' : 'rotate-[2deg]'} 
         `}>
             <Marquee autoFill direction={green ? 'left' : 'right'}>
-                <Image src={green ? line_green : line} alt="king wolf" className="hidden sm:inline"/>
-                <Image src={green ? line_green_mobile : line_mobile} alt="king wolf" className="sm:hidden"/>
+                <div className={`${drukCyrBold} ${green ? 'bg-my_green text-my_blue' : 'bg-my_blue'} mx-[-1px] uppercase flex h-[32px] text-[22px] sm:text-[30px] sm:h-[56px]`}>
+                    <div className="px-[10x] flex flex-col justify-center">
+                        <Image src={wolf} alt="KING WOLF" className="h-[26px] sm:h-[41px]"/>
+                    </div>
+                    <div className="flex flex-col justify-center">
+                        <p className="px-[5px]">King wolf</p>
+                    </div>
+                </div>
             </Marquee>
         </div>
     )
