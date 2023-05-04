@@ -26,7 +26,7 @@ export default function Tokenomics(){
             </div>
 
             <div className="relative z-30 px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
-                <h2 className={`${drukCyrBold} uppercase
+                <h2 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} uppercase
                     text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
                     sm:text-center
                 `}>
@@ -34,7 +34,7 @@ export default function Tokenomics(){
                     <span className="text-my_green">Tokenomics</span>    
                 </h2>
 
-                <div className="grid relative z-30
+                <div data-aos="fade-right" data-aos-duration="1500"  className="grid relative z-30
                     grid-cols-1 sm:grid-cols-2 grid-rows-1 sm:grid-rows-6
                     mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]
                     gap-y-[5px] sm:gap-y-[10px] sm:gap-x-[20px]

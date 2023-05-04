@@ -14,7 +14,7 @@ export default function Description(){
             </div>
 
             <div className="relative z-30 md:flex">
-                <div className={`${drukCyr} md:w-[50%]`}>
+                <div data-aos="fade-right" data-aos-duration="1500"  className={`${drukCyr} md:w-[50%]`}>
                     <p className="
                         text-[40px] leading-[95%] md:text-[50px]
                         md:pr-[10px]
@@ -25,7 +25,7 @@ export default function Description(){
                         in the crypto world
                     </p>
                 </div>
-                <div className="md:w-[50%] sm:flex md:block md:mt-[12px]">
+                <div data-aos="fade-right" data-aos-duration="1500" className="md:w-[50%] sm:flex md:block md:mt-[12px]">
                     <div className={`${manrope} sm:w-[50%] md:w-full`}>
                         <p className="font-semibold
                             text-[16px] leading-[22px] sm:text-[20px] sm:leading-[27px]

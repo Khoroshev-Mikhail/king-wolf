@@ -7,25 +7,25 @@ export default function Roadmap(){
             relative
         ">
 
-            <h2 className={`${drukCyrBold} uppercase
+            <h2 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} uppercase
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
             `}>
                 Roadmap
             </h2>
             
-            <div className="relative z-0
+            <div data-aos="fade-right" data-aos-duration="1500"  className="relative z-0
                 mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px]
                 [&>div>div>ul]:list-image-[url(/images/icon/list.svg)] sm:grid sm:grid-cols-2
             ">
 
-                <div className="z-0 hidden ml-[-20px] md:ml-[-40px] lg:ml-[-60px] xl:ml-[-80px] 2xl:ml-[-200px] sm:block w-full h-full left-0 absolute bg-[url('/images/eclipse-roadmap-desktop.svg')] bg-no-repeat bg-contain bg-left-bottom">
+                <div  data-aos="fade-left" data-aos-duration="1500" className="z-0 hidden ml-[-20px] md:ml-[-40px] lg:ml-[-60px] xl:ml-[-80px] 2xl:ml-[-200px] sm:block w-full h-full left-0 absolute bg-[url('/images/eclipse-roadmap-desktop.svg')] bg-no-repeat bg-contain bg-left-bottom">
                     {/* background-eclipse */}
                 </div>
-                <div className="z-0 sm:hidden  mr-[-20px]  w-[75%] h-[65%] right-0 absolute bg-[url('/images/eclipse-roadmap-right.svg')] bg-no-repeat bg-contain bg-right">
+                <div data-aos="fade-left" data-aos-duration="1500" className="z-0 sm:hidden  mr-[-20px]  w-[75%] h-[65%] right-0 absolute bg-[url('/images/eclipse-roadmap-right.svg')] bg-no-repeat bg-contain bg-right">
                     {/* background-eclipse */}
                 </div>
         
-                <div className="sm:cols-span-1 p-[1px] bg-gradient-to-l from-my_green rounded-2xl sm:rounded-none sm:pr-[0px]">
+                <div  className="sm:cols-span-1 p-[1px] bg-gradient-to-l from-my_green rounded-2xl sm:rounded-none sm:pr-[0px]">
                     <div className="bg-my_black h-full rounded-r-2xl pl-[30px] sm:pl-[40px] md:pl-[50px] lg:pl-[60px] py-[30px] sm:py-[40px] md:py-[50px] lg:py-[56px]
                         sm:rounded-none
                     ">

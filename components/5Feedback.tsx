@@ -20,7 +20,7 @@ export default function Feedback(){
                 {/* background-eclipse */}
             </div>
 
-            <h2 className={`${drukCyrBold} uppercase relative z-30
+            <h2 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} uppercase relative z-30
                 text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px] leading-[80%]
                 sm:w-[90%] md:w-[70%] lg:w-[70%]
             `}>
@@ -28,7 +28,7 @@ export default function Feedback(){
                 <span className={drukCyrBoldItalic}> part</span> of the pack?
             </h2>
 
-                <div className="relative z-30 overflow-hidden sm:flex sm:justify-between 
+                <div data-aos="fade-right" data-aos-duration="1500" className="relative z-30 overflow-hidden sm:flex sm:justify-between 
                     mt-[40px] md:mt-[50px] lg:mt-[60px] xl:mt-[80px] 
                     bg-my_blue rounded-2xl bg-[url('/images/grid-form-mobile.svg')] sm:bg-[url('/images/grid-form.svg')] bg-no-repeat bg-contain sm:bg-cover
                 ">

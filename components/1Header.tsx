@@ -9,7 +9,6 @@ import cross from "../public/images/cross.png"
 import burger from "../public/images/burger.png"
 import { drukCyr } from "@/pages/_app";
 
-
 export default function Header(){
     const [ isHidden, setIsHidden ] = useState<boolean>(true)
     return(
@@ -57,13 +56,13 @@ export default function Header(){
             </div>
 
             <header className="h-full mt-[20px] sm:mt-0 px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
-                <h1 className={`${drukCyrBold} text-my_blue z-20 relative uppercase
+                <h1 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} text-my_blue z-20 relative uppercase
                     text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px]
                     leading-[80%]
                 `}>
                     King wolf:
                 </h1>
-                <h2 className={`${drukCyrBold} relative z-20  uppercase
+                <h2 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} relative z-20  uppercase
                     text-[70px] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px]
                     leading-[80%]
                 `}>
@@ -71,8 +70,7 @@ export default function Header(){
                     the <span className="text-my_green">wolf<br /></span>
                     pack
                 </h2>
-                <p className="left-0
-                    
+                <p data-aos="fade-right" data-aos-duration="1500" className="left-0
                     z-20 absolute bottom-[100px] sm:relative sm:bottom-[0]
                     mt-[20px] sm:mt-[40px]
                     pl-[20px] sm:pl-[0]

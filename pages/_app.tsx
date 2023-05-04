@@ -2,6 +2,9 @@ import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Manrope } from 'next/font/google'
 import localFont from 'next/font/local'
+import { useEffect } from 'react'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const manropeFont = Manrope({ subsets: ['latin'] })
 const drukCyrFont = localFont({ src: '../fonts/DrukCyr-Medium.ttf' })
@@ -43,6 +46,9 @@ export const drukCyrHeavy = drukCyrHeavyFont.className
 // })
 
 export default function App({ Component, pageProps }: AppProps) {
+    useEffect(()=>{
+      AOS.init()
+  }, [])
   return (
     <main className={`${manrope} bg-my_black text-white`}>
       <Component {...pageProps} />
