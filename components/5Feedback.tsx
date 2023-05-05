@@ -6,9 +6,9 @@ import Ticker from "./ui/ticker";
 import emailjs from '@emailjs/browser';
 import { useEffect, useState } from "react";
 
-const SERVICE_ID = 'wolfkingbnb'
-const TEMPLATE_ID = 'template_4kmnxor'
-const PUBLIC_KEY = 'ryPFWuhN_O_S1_ra7'
+const SERVICE_ID = 'wolfkingbnb' //https://dashboard.emailjs.com/admin
+const TEMPLATE_ID = 'template_4kmnxor' //https://dashboard.emailjs.com/admin/templates
+const PUBLIC_KEY = 'ryPFWuhN_O_S1_ra7' //https://dashboard.emailjs.com/admin/account
 
 export default function Feedback(){
     const [status, setStatus] = useState<'loading' | 'success' | 'error' | 'default'>('default')
