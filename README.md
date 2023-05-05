@@ -1,4 +1,4 @@
-### README
+# README
 ## Все стили указаны в порядке брейкпоинтов, например:
 className="prop1 prop2 sm:prop1 sm:prop2 md:prop1 md:prop2"
 
