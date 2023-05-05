@@ -7,11 +7,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const manropeFont = Manrope({ subsets: ['latin'] })
-const drukCyrFont = localFont({ src: '../fonts/DrukCyr-Medium.ttf' })
-const drukCyrItalicFont = localFont({ src: '../fonts/DrukCyr-Medium-Italic.ttf' })
-const drukCyrBoldItalicFont = localFont({ src: '../fonts/DrukCyr-Bold-Italic.ttf' })
-const drukCyrBoldFont = localFont({ src: '../fonts/DrukCyr-Bold.ttf' })
-const drukCyrHeavyFont = localFont({ src: '../fonts/DrukCyr-Heavy.ttf' })
+const drukCyrFont = localFont({ src: '../fonts/DrukCyr-Medium.woff2' })
+const drukCyrItalicFont = localFont({ src: '../fonts/DrukCyr-Medium-Italic.woff2' })
+const drukCyrBoldItalicFont = localFont({ src: '../fonts/DrukCyr-Bold-Italic.woff2' })
+const drukCyrBoldFont = localFont({ src: '../fonts/DrukCyr-Bold.woff2' })
+const drukCyrHeavyFont = localFont({ src: '../fonts/DrukCyr-Heavy.woff2' })
 export const manrope = manropeFont.className
 export const drukCyr = drukCyrFont.className
 export const drukCyrItalic = drukCyrItalicFont.className
