@@ -65,7 +65,7 @@ export default function Header(){
                     Shiba inu had an affair<br className="sm:hidden" /> with a wolf and a wolf cub was born. His mission is to unite everyone and become the king of memecoins
                 </p>
                 <div className="">
-                    <Image src={bigwolf_mobile} alt="King wolf" className="absolute z-0 left-0 bottom-[-70px] w-full sm:hidden" loading="lazy"/>
+                    <Image priority src={bigwolf_mobile} alt="King wolf" className="absolute z-0 left-0 bottom-[-70px] w-full sm:hidden" />
                     <Image src={bigwolf} alt="King wolf" className="absolute z-0 top-0 right-0 w-[50%] max-w-[700px] hidden sm:inline-flex" loading="lazy"/> 
                 </div>
                 <div className="absolute z-20 left-0 w-full px-[20px] bottom-[20px] sm:relative sm:px-0 sm:mt-[20px] sm:bottom-[0]">
