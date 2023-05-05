@@ -63,7 +63,7 @@ export default function Feedback(){
                                 <input value={email} onChange={(e)=>setEmail(e.target.value)} required className="outline-0 mt-[8px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px] md:mt-[10px]" name="email" type="email" placeholder="Email"/>
                                 <button disabled={status === 'success' || status === 'loading'} type="submit" className="mt-[8px] p-[16px] w-full text-my_blue text-[16px] leading-[180%] bg-white hover:bg-my_green hover:text-my_blue duration-300 rounded-2xl font-bold uppercase sm:text-[20px] sm:p-[22px] md:mt-[10px]">
                                     {status === 'default' && 'Send '}
-                                    {status === 'success' && 'Success!'}
+                                    {status === 'success' && 'Success'}
                                     {status === 'error' && 'Sorry, unknown error'}
                                     {status === 'loading' && 'loading'}
                                 </button>
