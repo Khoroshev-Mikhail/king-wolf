@@ -3,8 +3,36 @@ import wolf from '../public/images/feedback-wolf.png'
 import { drukCyrBold, drukCyrBoldItalic } from "@/pages/_app";
 import Social from "./ui/social";
 import Ticker from "./ui/ticker";
+import emailjs from '@emailjs/browser';
+import { useEffect, useState } from "react";
+
+const SERVICE_ID = 'wolfkingbnb'
+const TEMPLATE_ID = 'template_4kmnxor'
+const PUBLIC_KEY = 'ryPFWuhN_O_S1_ra7'
 
 export default function Feedback(){
+    const [status, setStatus] = useState<'loading' | 'success' | 'error' | 'default'>('default')
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+
+    function sendForm(e:any){
+        e.preventDefault()
+        setStatus('loading')
+    
+        emailjs.send(SERVICE_ID, TEMPLATE_ID, { name, email})
+            .then(() => {
+                setName('')
+                setEmail('')
+                setStatus('success')
+            }, (err) => {
+                console.log(err)
+                setStatus('error')
+            });
+    }
+    useEffect(()=>{
+        emailjs.init(PUBLIC_KEY)
+    }, [])
+
     return(
         <section className="relative mt-[85px] mb-[40px] px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
 
@@ -30,11 +58,14 @@ export default function Feedback(){
                             </div>
                         </div>
                         <div className="mt-[30px] sm:mt-[10px] md:mt-[20px] lg:mt-[30px] xl:mt-[40px]">
-                            <form>
-                                <input required className="outline-0 w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="name" type="text" placeholder="Name"/>
-                                <input required className="outline-0 mt-[8px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px] md:mt-[10px]" name="email" type="email" placeholder="Email"/>
-                                <button className="mt-[8px] p-[16px] w-full text-my_blue text-[16px] leading-[180%] bg-white hover:bg-my_green hover:text-my_blue duration-300 rounded-2xl font-bold uppercase sm:text-[20px] sm:p-[22px] md:mt-[10px]">
-                                    Send
+                            <form onSubmit={sendForm}>
+                                <input value={name} onChange={(e)=>setName(e.target.value)} required className="outline-0 w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px]" name="name" type="text" placeholder="Name"/>
+                                <input value={email} onChange={(e)=>setEmail(e.target.value)} required className="outline-0 mt-[8px] w-full bg-transparent border-white border-2 py-[18px] px-[20px] text-white placeholder-white text-[16px] leading-[180%] rounded-2xl font-medium sm:text-[20px] md:py-[22px] md:mt-[10px]" name="email" type="email" placeholder="Email"/>
+                                <button disabled={status === 'success' || status === 'loading'} type="submit" className="mt-[8px] p-[16px] w-full text-my_blue text-[16px] leading-[180%] bg-white hover:bg-my_green hover:text-my_blue duration-300 rounded-2xl font-bold uppercase sm:text-[20px] sm:p-[22px] md:mt-[10px]">
+                                    {status === 'default' && 'Send '}
+                                    {status === 'success' && 'Success!'}
+                                    {status === 'error' && 'Sorry, unknown error'}
+                                    {status === 'loading' && 'loading'}
                                 </button>
                                 <p className="mt-[8px] text-center font-normal text-[#ffffffb3] text-[7px] sm:text-left sm:text-[10px] md:text-[10px] lg:text-[12px]">By submitting your data to this form, you agree to the privacy Policy</p>
                             </form>
