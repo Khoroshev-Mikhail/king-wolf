@@ -5,8 +5,8 @@ import bigwolf_mobile from '../public/images/big-wolf-mobile.png'
 import Image from "next/image";
 import { useState } from "react";
 import Social from "./ui/social";
-import cross from "../public/images/cross.png"
-import burger from "../public/images/burger.png"
+import cross from "../public/images/cross.svg"
+import burger from "../public/images/burger.svg"
 import { drukCyr } from "@/pages/_app";
 
 export default function Header(){
@@ -63,10 +63,10 @@ export default function Header(){
                     pack
                 </h2>
                 <p data-aos="fade-right" data-aos-duration="1500" className="absolute z-20 left-0 bottom-[100px] text-[16px] w-full leading-[22px] pl-[20px] mt-[20px] sm:pl-[0] sm:mt-[40px] sm:relative sm:bottom-[0] sm:max-w-[50%] md:max-w-[40%] md:text-[20px]">
-                    Shiba inu had an affair<br className="sm:hidden" /> with a wolf and a wolf cub was born. His mission is to unite everyone and become the king of memecoins
+                    Shiba inu had an affair<br className="xs:hidden" /> with a wolf and a wolf cub was born. His mission is to unite everyone and become the king of memecoins
                 </p>
                 <div className="">
-                    <Image priority src={bigwolf_mobile} alt="King wolf" className="absolute z-0 right-0 top-[100px] w-full xs:max-w-[450px] sm:hidden" />
+                    <Image priority src={bigwolf_mobile} alt="King wolf" className="absolute z-0 right-0 top-[100px] w-full xs:max-w-[400px] sm:hidden" />
                     <Image src={bigwolf} alt="King wolf" className="absolute z-0 top-0 right-0 w-[50%] max-w-[700px] hidden sm:inline-flex" loading="lazy"/> 
                 </div>
                 <div className="absolute z-20 left-0 w-full px-[20px] bottom-[20px] sm:relative sm:px-0 sm:mt-[20px] sm:bottom-[0]">

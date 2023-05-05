@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
-import wolf from '../../public/images/wolf-ticker.svg'
+import wolf from '../../public/images/wolf-ticker.png'
 import { drukCyrBold } from "@/pages/_app";
 
 export default function Ticker({ green } : { green?: boolean }){
