@@ -4,7 +4,7 @@ import roundWolfs from '../public/images/round-wolfs.png'
 
 export default function Description(){
     return(
-        <section className="relative px-[20px] sm:mt-[50px] md:flex md:px-[40px] md:mt-[75px] lg:mt-[100px] lg:px-[60px] xl:px-[80px] xl:mt-[150px] 2xl:px-[200px]">
+        <section id="home" className="relative px-[20px] sm:mt-[50px] md:flex md:px-[40px] md:mt-[75px] lg:mt-[100px] lg:px-[60px] xl:px-[80px] xl:mt-[150px] 2xl:px-[200px]">
             
             {/* background-eclipse */}
             <div className="sm:hidden absolute w-full h-full right-0 z-0 top-0 bg-[url('/images/eclipse-desc-right.svg')] bg-no-repeat bg-right bg-contain"></div>

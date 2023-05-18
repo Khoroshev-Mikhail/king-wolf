@@ -11,7 +11,7 @@ import Ticker from "./ui/ticker";
 export default function Tokenomics(){
     const copy = () => navigator.clipboard.writeText('0x1022029eDdF7c54FC3942664CfA63A24007440E8')
     return(
-        <section className="relative pt-[86px] pb-[65px]">
+        <section id="tokenomics" className="relative pt-[86px] pb-[65px]">
             
             {/* background-eclipse */}
             <div className="absolute w-full h-full right-0 z-0 top-0 sm:top-[-100px] bg-[url('/images/eclipse-tocenomics-right.svg')] bg-no-repeat bg-contain bg-right-top"></div>

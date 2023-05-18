@@ -2,7 +2,7 @@ import { drukCyr, drukCyrBold, drukCyrItalic } from "@/pages/_app";
 
 export default function Roadmap(){
     return(
-        <section className="relative px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
+        <section id="roadmap" className="relative px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
 
             <h2 data-aos="fade-right" data-aos-duration="1500" className={`${drukCyrBold} uppercase text-[70px] leading-[80%] sm:text-[80px] md:text-[100px] lg:text-[120px] xl:text-[156px]`}>
                 Roadmap

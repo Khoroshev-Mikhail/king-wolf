@@ -34,7 +34,7 @@ export default function Feedback(){
     }, [])
 
     return(
-        <section className="relative mt-[85px] mb-[40px] px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
+        <section id="contacts" className="relative mt-[85px] mb-[40px] px-[20px] md:px-[40px] lg:px-[60px] xl:px-[80px] 2xl:px-[200px]">
 
             {/* background-eclipse */}
             <div className="z-0 sm:hidden w-full h-full top-[-100px] left-0 absolute bg-[url('/images/eclipse-feedback-left.svg')] bg-no-repeat bg-contain g-left-top"></div>

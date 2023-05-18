@@ -27,10 +27,10 @@ export default function Header(){
                     <li className="flex justify-end py-[13px] sm:py-[26px] md:py-[39px] lg:pr-[100px] xl:pr-[200px]">
                         <Image className="cursor-pointer w-[30px] h-[30px] sm:w-[49px] sm:h-[49px]" src={ cross } alt="menu-toggle" onClick={()=> setIsHidden(true) }/>
                     </li>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">TOKENOMICS</a></li>
-                    <li><a href="#">ROADMAP</a></li>
-                    <li><a href="#">CONTACTS</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#tokenomics">TOKENOMICS</a></li>
+                    <li><a href="#roadmap">ROADMAP</a></li>
+                    <li><a href="#contacts">CONTACTS</a></li>
                     <li className="pt-[60px] xl:pt-[100px]">
                         <Social green/>
                     </li>
